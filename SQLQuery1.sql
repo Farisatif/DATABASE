@@ -34,7 +34,7 @@ INSERT INTO Employee VALUES (1,'Amjed',2,2345678.00),
 
 								select * from Depaertments;
 								select * from Employee;
-
+(localdb)\MSSQLLocalDB
 SELECT Depaertments.DepName ,Depaertments.Location , Employee.EmpID ,
 Employee.EmpName ,Employee.DeptID , Employee.Salary  FROM Depaertments 
 JOIN Employee
